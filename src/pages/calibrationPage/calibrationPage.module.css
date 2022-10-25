@@ -1,0 +1,83 @@
+.calibrationWrapper {
+    position: relative;
+    background: rgba(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* z-index: 3; */
+}
+
+.calibrationBtn {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: red;
+    /* opacity: 0.2; */
+    border-color: black;
+    border-style: solid;
+    position: fixed;
+    z-index: 5;
+}
+
+.blueDot {
+    display: inline-block;
+    border-radius: 50%;
+    background: blue;
+    opacity: 0.7;
+    width: 10px;
+    height: 10px;
+}
+
+.btnText {
+    display: inline-block;
+    position: static;
+    cursor: auto;
+}
+
+.passed {
+    background-color: yellow;
+}
+
+.btn-id1 {
+    top: 70px;
+    left: 340px;
+}
+.btn-id2 {
+    top: 70px;
+    left: 50vw;
+    margin-left: 340;
+}
+.btn-id3 {
+    top: 70px;
+    right: 2vw;
+}
+.btn-id4 {
+    top: 50vh;
+    left: 2vw;
+}
+.btn-id5 {
+    top: 50vh;
+    left: 50vw;
+}
+.btn-id6 {
+    top: 50vh;
+    right: 2vw;
+}
+.btn-id7 {
+    bottom: 2vw;
+    left: 2vw;
+}
+.btn-id8 {
+    bottom: 2vw;
+    left: 50vw;
+}
+.btn-id9 {
+    bottom: 2vw;
+    right: 2vw;
+}

@@ -1,0 +1,29 @@
+.checkboxWrapper {
+    position: relative;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.checkbox {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+
+.input:checked ~ .checkbox {
+    background: black;
+    background-clip: content-box;
+}
+
+.input:focus ~ .checkbox {
+    border-style: dashed;
+}

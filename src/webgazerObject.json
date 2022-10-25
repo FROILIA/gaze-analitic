@@ -1,0 +1,98 @@
+{
+    "addMouseEventListeners": ƒ ()
+"addRegression": ƒ (name)
+"addRegressionModule": ƒ (name, constructor)
+"addTrackerModule": ƒ (name, constructor)
+"applyKalmanFilter": ƒ (val)
+"begin": ƒ (onFail)
+"clearData": async ƒ ()
+"clearGazeListener": ƒ ()
+"computeValidationBoxSize": ƒ ()
+"detectCompatibility": ƒ ()
+"end": ƒ ()
+"getCurrentPrediction": ƒ (regIndex)
+"getRegression": ƒ ()
+"getStoredPoints": ƒ ()
+"getTracker": ƒ ()
+"getVideoElementCanvas": ƒ ()
+"getVideoPreviewToCameraResolutionRatio": ƒ ()
+"isReady": ƒ ()
+"params": {moveTickSize: 50, videoContainerId: 'webgazerVideoContainer', videoElementId: 'webgazerVideoFeed', videoElementCanvasId: 'webgazerVideoCanvas', faceOverlayId: 'webgazerFaceOverlay', …}
+"pause": ƒ ()
+"recordScreenPosition": ƒ (x, y, eventType)
+"reg":
+"RidgeReg": ƒ ()
+"RidgeRegThreaded": ƒ ()
+"RidgeWeightedReg": ƒ ()
+[[Prototype]]: Object
+"removeMouseEventListeners": ƒ ()
+"resume": async ƒ ()
+"saveDataAcrossSessions": ƒ (val)
+"setCameraConstraints": async ƒ (constraints)
+"setGazeListener": ƒ (listener)
+"setRegression": ƒ (name)
+"setStaticVideo": ƒ (videoLoc)
+"setTracker": ƒ (name)
+"setVideoElementCanvas": ƒ (canvas)
+"setVideoViewerSize": ƒ (w, h)
+"showFaceFeedbackBox": ƒ (val)
+"showFaceOverlay": ƒ (val)
+"showPredictionPoints": ƒ (val)
+"showVideo": ƒ (val)
+"showVideoPreview": ƒ (val)
+"stopVideo": ƒ ()
+"storePoints": ƒ (x, y, k)
+"tracker": {TFFaceMesh: ƒ},
+"util": {
+"DataWindow": ƒ (windowSize, data),
+"DebugBox": ƒ (interval)
+"Eye": ƒ (patch, imagex, imagey, width, height),
+"bound": ƒ (prediction)
+"correlation": ƒ (data1, data2)
+"equalizeHistogram": ƒ (src, step, dst),
+"getEyeFeats": ƒ (eyes),
+"grayscale": ƒ (pixels, width, height),
+"resizeEye": ƒ (eye, resizeWidth, resizeHeight),
+"threshold": ƒ (data, threshold)
+},
+    "tracker": {},
+    "reg": {},
+    "util": {},
+    "params": {
+        "moveTickSize": 50,
+        "videoContainerId": "webgazerVideoContainer",
+        "videoElementId": "webgazerVideoFeed",
+        "videoElementCanvasId": "webgazerVideoCanvas",
+        "faceOverlayId": "webgazerFaceOverlay",
+        "faceFeedbackBoxId": "webgazerFaceFeedbackBox",
+        "gazeDotId": "webgazerGazeDot",
+        "videoViewerWidth": 320,
+        "videoViewerHeight": 240,
+        "faceFeedbackBoxRatio": 0.66,
+        "showVideo": true,
+        "mirrorVideo": true,
+        "showFaceOverlay": true,
+        "showFaceFeedbackBox": true,
+        "showGazeDot": true,
+        "camConstraints": {
+            "video": {
+                "width": {
+                    "min": 320,
+                    "ideal": 640,
+                    "max": 1920
+                },
+                "height": {
+                    "min": 240,
+                    "ideal": 480,
+                    "max": 1080
+                },
+                "facingMode": "user"
+            }
+        },
+        "dataTimestep": 50,
+        "showVideoPreview": true,
+        "applyKalmanFilter": true,
+        "saveDataAcrossSessions": true,
+        "storingPoints": false
+    }
+}

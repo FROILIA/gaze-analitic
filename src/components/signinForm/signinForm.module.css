@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.inputLine {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    /* padding-bottom: 2rem; */
+}
+
+.inputLine > * {
+    width: 100%;
+}
+
+.inputWrapper .input {
+    width: 100%;
+}
+
+.input {
+    font-size: 1rem;
+    height: 3rem;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.input:focus {
+    border-style: dashed;
+    outline: none;
+}
+
+.input:focus-visible {
+    border-radius: 0;
+}
+
+.error {
+    top: calc(100% - 2rem);
+    color: red;
+    /* position: absolute; */
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+}
